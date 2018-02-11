@@ -1,2 +1,0 @@
-# cf_vmware_ansible_provisioning
-CloudForms VMware Ansible Automation Provisioning
