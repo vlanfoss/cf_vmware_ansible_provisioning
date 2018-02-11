@@ -17,7 +17,7 @@
 -------------------------------------------------------------------------------
 ////
 
-= miq_vmware_ansible
+= cf_vmware_ansible_provisioning
 
 Provision VMware instances via CloudForms with Ansible Automation
 
