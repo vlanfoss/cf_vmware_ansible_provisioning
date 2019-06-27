@@ -14,10 +14,10 @@
     - role: vmware_postprovision
       when: vmware_created_vms is defined and manageiq is defined
 
-- name: Perform tasks on instances
-  hosts: vmware_hosts
+#- name: Perform tasks on instances
+#  hosts: vmware_hosts
   #become: true
   #gather_facts: false
 
-  roles:
-    - role: vmware_runonce
+#  roles:
+#    - role: vmware_runonce
