@@ -39,10 +39,10 @@ vm_networks:
     #   - "{{ network_0_dns_1_server | default(omit, true) }}"
 
 ## vm disk parameters
-# disks:
-#   - size_gb: "{{ vm_disk_0_size_gb }}"
-#     type: "{{ vm_disk_0_type | default('thin') }}"
-#     datastore: "{{ vm_disk_0_datastore }}"
+disks:
+  - size_gb: "{{ vm_disk_0_size_gb }}"
+    type: "{{ vm_disk_0_type | default('thin') }}"
+    datastore: "{{ vm_disk_0_datastore }}"
 #   - size_gb: "{{ vm_disk_1_size_gb }}"
 #     type: "{{ vm_disk_1_type | default('thin') }}"
 #     datastore: "{{ vm_disk_1datastore }}"
