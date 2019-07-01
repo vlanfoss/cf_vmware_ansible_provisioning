@@ -45,9 +45,9 @@ disks:
   - size_gb: "{{ vm_disk_0_size_gb }}"
     type: "{{ vm_disk_0_type | default('thin') }}"
     datastore: "{{ vm_disk_0_datastore }}"
-#   - size_gb: "{{ vm_disk_1_size_gb }}"
-#     type: "{{ vm_disk_1_type | default('thin') }}"
-#     datastore: "{{ vm_disk_1datastore }}"
+  - size_gb: "{{ vm_disk_1_size_gb }}"
+    type: "{{ vm_disk_1_type | default('thin') }}"
+    datastore: "{{ vm_disk_1datastore }}"
 
 ## vm customization parameters
 # customizations:
